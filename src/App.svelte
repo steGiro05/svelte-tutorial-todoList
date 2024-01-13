@@ -1,3 +1,19 @@
-<script></script>
+<script>
+  import Header from "./components/Header.svelte";
+</script>
 
-<style></style>
+<div class="container">
+  <Header />
+  sample text
+</div>
+
+<style>
+  .container {
+    width: 500px;
+    background: #009579;
+  }
+
+  :global(.container *) {
+    font-family: sans-serif;
+  }
+</style>
